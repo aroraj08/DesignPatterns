@@ -12,6 +12,7 @@ public class MallardDuck extends Duck {
         this.quackBehavior = new QuackSoundOne();
         this.flyBehavior = new FlyWithWings();
     }
+
     public String display() {
         return "Mallard Duck";
     }

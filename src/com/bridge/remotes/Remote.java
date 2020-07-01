@@ -1,7 +1,7 @@
 package com.bridge.remotes;
 
 public interface Remote {
-	void power();
+    void power();
 
     void volumeDown();
 

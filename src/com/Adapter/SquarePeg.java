@@ -1,4 +1,5 @@
 package com.Adapter;
+
 /**
  * SquarePegs are not compatible with RoundHoles (they were implemented by
  * previous development team). But we have to integrate them into our program.

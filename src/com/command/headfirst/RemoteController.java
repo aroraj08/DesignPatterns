@@ -12,12 +12,12 @@ public class RemoteController {
         onCommands = new Command[7];
         offCommands = new Command[7];
 
-        Command noCommand  = new NoCommand();
-        for (int i=0; i < onCommands.length; i++) {
+        Command noCommand = new NoCommand();
+        for (int i = 0; i < onCommands.length; i++) {
             onCommands[i] = noCommand;
         }
 
-        for (int i=0; i < offCommands.length; i++) {
+        for (int i = 0; i < offCommands.length; i++) {
             offCommands[i] = noCommand;
         }
 
@@ -47,9 +47,9 @@ public class RemoteController {
     public String toString() {
         StringBuffer sb = new StringBuffer();
         sb.append("\n--- Remote Controller\n");
-        for (int i=0; i<onCommands.length; i++) {
+        for (int i = 0; i < onCommands.length; i++) {
             sb.append("[slot " + i + "] " + onCommands[i].getClass().getName()
-            + "   " + offCommands[i].getClass().getName() + "\n");
+                    + "   " + offCommands[i].getClass().getName() + "\n");
         }
         return sb.toString();
     }

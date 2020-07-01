@@ -1,4 +1,5 @@
 package com.command;
+
 public class CutCommand extends Command {
 
     public CutCommand(Editor editor) {

@@ -22,7 +22,7 @@ public abstract class Duck {
     }
 
     public void fly() {
-         this.flyBehavior.fly();
+        this.flyBehavior.fly();
     }
 
     public void setFlyBehavior(Flyable flyable) {

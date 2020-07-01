@@ -12,8 +12,8 @@ public class Main {
         Beverage beverage = new DarkRoast();
         System.out.println(beverage.getDescription() + " " + beverage.getCost());
 
-        Beverage beverage1 = new DarkRoast();
-        beverage1 = new Mocha(beverage1);
+        //Beverage beverage1 = new DarkRoast();
+        Beverage beverage1 = new Mocha(new DarkRoast());
         System.out.println(beverage1.getDescription() + " " + beverage1.getCost());
 
         Beverage beverage2 = new DarkRoast();

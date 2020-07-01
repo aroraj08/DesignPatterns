@@ -1,4 +1,5 @@
 package com.command;
+
 public abstract class Command {
     public Editor editor;
     private String backup;

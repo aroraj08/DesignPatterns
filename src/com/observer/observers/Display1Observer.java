@@ -10,8 +10,8 @@ public class Display1Observer implements Observer, Display {
     Observable observable;
 
     public Display1Observer(Observable observable) {
-            this.observable = observable;
-            this.observable.addObserver(this);
+        this.observable = observable;
+        this.observable.addObserver(this);
     }
 
     DisplayData data;

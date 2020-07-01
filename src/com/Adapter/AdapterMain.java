@@ -1,4 +1,5 @@
 package com.Adapter;
+
 public class AdapterMain {
     public static void main(String[] args) {
         // Round fits round, no surprise.

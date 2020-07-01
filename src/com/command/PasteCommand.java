@@ -1,4 +1,5 @@
 package com.command;
+
 public class PasteCommand extends Command {
 
     public PasteCommand(Editor editor) {

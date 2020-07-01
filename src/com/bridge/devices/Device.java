@@ -1,7 +1,7 @@
 package com.bridge.devices;
 
 public interface Device {
-	boolean isEnabled();
+    boolean isEnabled();
 
     void enable();
 

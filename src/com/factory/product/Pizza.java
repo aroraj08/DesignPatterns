@@ -27,7 +27,7 @@ public abstract class Pizza {
     public void prepare() {
         System.out.println("Preparing pizza :" + name + " with dough : " + dough + " and sauce : " + sauce);
         System.out.println("Toppings -> ");
-        toppingList.forEach(c  -> System.out.println(c));
+        toppingList.forEach(c -> System.out.println(c));
     }
 
     public void bake() {

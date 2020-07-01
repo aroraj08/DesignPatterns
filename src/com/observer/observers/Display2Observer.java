@@ -16,8 +16,9 @@ public class Display2Observer implements Observer, Display {
     @Override
     public void display() {
         System.out.println("Display 2: " + this.data.getHumidity() + " " + this.data.getPressure()
-        + " " + this.data.getTemperature().toString());
+                + " " + this.data.getTemperature().toString());
     }
+
     @Override
     public void update(Observable o, Object arg) {
         if (o instanceof WeatherData) {

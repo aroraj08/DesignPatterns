@@ -9,10 +9,10 @@ public class Light {
     }
 
     public void on() {
-        System.out.println("Light ON for " + description );
+        System.out.println("Light ON for " + description);
     }
 
     public void off() {
-        System.out.println("Light OFF for " + description );
+        System.out.println("Light OFF for " + description);
     }
 }

@@ -30,7 +30,7 @@ public class RemoteControllerTest {
         remoteController.undoLastAction();
 
         remoteController.onButtonWasPressed(6);
-        int[] a = {1,4,2,4,5,-1};
+        int[] a = {1, 4, 2, 4, 5, -1};
         Arrays.sort(a);
 
     }

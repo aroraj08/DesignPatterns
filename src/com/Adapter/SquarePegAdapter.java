@@ -1,4 +1,5 @@
 package com.Adapter;
+
 /**
  * Adapter allows fitting square pegs into round holes.
  */

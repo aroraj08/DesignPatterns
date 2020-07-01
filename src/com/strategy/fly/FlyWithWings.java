@@ -1,6 +1,6 @@
 package com.strategy.fly;
 
-public class FlyWithWings implements  Flyable {
+public class FlyWithWings implements Flyable {
 
     @Override
     public void fly() {

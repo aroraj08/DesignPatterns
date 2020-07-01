@@ -7,6 +7,7 @@ public class DisplayData {
     private int humidity;
     private BigDecimal temperature;
     private int pressure;
+
     public int getHumidity() {
         return humidity;
     }

@@ -1,4 +1,5 @@
 package com.proxy;
+
 public class Video {
     public String id;
     public String title;

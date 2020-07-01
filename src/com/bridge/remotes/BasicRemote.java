@@ -2,10 +2,11 @@ package com.bridge.remotes;
 
 import com.bridge.devices.Device;
 
-public class BasicRemote implements Remote{
-	protected Device device;
+public class BasicRemote implements Remote {
+    protected Device device;
 
-    public BasicRemote() {}
+    public BasicRemote() {
+    }
 
     public BasicRemote(Device device) {
         this.device = device;
